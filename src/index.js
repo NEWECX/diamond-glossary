@@ -8,6 +8,6 @@ module.exports = {
 
     ...key_values,
     ...certificates,
-    ...values_maps,
+    values_maps,
 
 };
