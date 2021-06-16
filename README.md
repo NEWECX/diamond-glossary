@@ -23,5 +23,5 @@ npm install @ritani/diamond-glossary
     console.log(values_maps);
 
     console.log(certificate_full_names);
-    
+
 </code>
