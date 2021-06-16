@@ -16,12 +16,8 @@ npm install @ritani/diamond-glossary
 
 ## in code
 
-<code>
-
     const {values_maps, certificate_full_names} = require('@ritani/diamond-glossary);
 
     console.log(values_maps);
 
     console.log(certificate_full_names);
-
-</code>
