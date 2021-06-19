@@ -249,6 +249,49 @@ const reverse_fancy_color_map = {
 	gray: 'GRAY',
 };
 
+const colors_to_fancy_colors = {
+	FLY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FL'},
+	FY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FA'},
+	FIY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FI'},
+	FVY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FV'},
+	FLO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FL'},
+	FO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FA'},
+	FIO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FI'},
+	FVO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FV'},
+	FLB1: {fancy_color: 'BLUE', fancy_color_intensity: 'FL'},
+	FB1: {fancy_color: 'BLUE', fancy_color_intensity: 'FA'},
+	FIB1: {fancy_color: 'BLUE', fancy_color_intensity: 'FI'},
+	FVB1: {fancy_color: 'BLUE', fancy_color_intensity: 'FV'},
+	FLB2: {fancy_color: 'BLACK', fancy_color_intensity: 'FL'},
+	FB2: {fancy_color: 'BLACK', fancy_color_intensity: 'FA'},
+	FIB2: {fancy_color: 'BLACK', fancy_color_intensity: 'FI'},
+	FVB2: {fancy_color: 'BLACK', fancy_color_intensity: 'FV'},
+	FLB3: {fancy_color: 'BROWN', fancy_color_intensity: 'FL'},
+	FB3: {fancy_color: 'BROWN', fancy_color_intensity: 'FA'},
+	FIB3: {fancy_color: 'BROWN', fancy_color_intensity: 'FI'},
+	FVB3: {fancy_color: 'BROWN', fancy_color_intensity: 'FV'},
+	FLR: {fancy_color: 'RED', fancy_color_intensity: 'FL'},
+	FR: {fancy_color: 'RED', fancy_color_intensity: 'FA'},
+	FIR: {fancy_color: 'RED', fancy_color_intensity: 'FI'},
+	FVR: {fancy_color: 'RED', fancy_color_intensity: 'FV'},
+	FLP1: {fancy_color: 'PINK', fancy_color_intensity: 'FL'},
+	FP1: {fancy_color: 'PINK', fancy_color_intensity: 'FA'},
+	FIP1: {fancy_color: 'PINK', fancy_color_intensity: 'FI'},
+	FVP1: {fancy_color: 'PINK', fancy_color_intensity: 'FV'},
+	FLP2: {fancy_color: 'PURPLE', fancy_color_intensity: 'FL'},
+	FP2: {fancy_color: 'PURPLE', fancy_color_intensity: 'FA'},
+	FIP2: {fancy_color: 'PURPLE', fancy_color_intensity: 'FI'},
+	FVP2: {fancy_color: 'PURPLE', fancy_color_intensity: 'FV'},
+	FLG1: {fancy_color: 'GREEN', fancy_color_intensity: 'FL'},
+	FG1: {fancy_color: 'GREEN', fancy_color_intensity: 'FA'},
+	FIG1: {fancy_color: 'GREEN', fancy_color_intensity: 'FI'},
+	FVG1: {fancy_color: 'GREEN', fancy_color_intensity: 'FV'},
+	FLG2: {fancy_color: 'GRAY', fancy_color_intensity: 'FL'},
+	FG2: {fancy_color: 'GRAY', fancy_color_intensity: 'FA'},
+	FIG2: {fancy_color: 'GRAY', fancy_color_intensity: 'FI'},
+	FVG2: {fancy_color: 'GRAY', fancy_color_intensity: 'FV'},
+};
+
 const fancy_color_intensity_values = [ 'FL', 'FA', 'FI', 'FV', 'FP', 'FD' ];
 
 const fancy_color_intensity_map = {
@@ -300,4 +343,5 @@ module.exports = {
 	fancy_color_intensity_values,
 	fancy_color_intensity_map,
 	reverse_fancy_color_intensity_map,
+	colors_to_fancy_colors,
 };
