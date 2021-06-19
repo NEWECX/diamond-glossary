@@ -136,32 +136,36 @@ const reverse_clarity_map = {
 	'inclusion 3': 'I3',
 };
 
-const cut_values = [ 'EX', 'VG', 'G' ];
+const cut_values = [ 'EX', 'VG', 'G', 'F' ];
 
 const cut_map = {
 	EX: 'Excellent',
 	VG: 'Very Good',
-	G: 'Good'
+	G: 'Good',
+	F: 'Fair'
 };
 
 const reverse_cut_map = {
 	'excellent': 'EX',
 	'very good': 'VG',
-	'good': 'G'
+	'good': 'G',
+	'fair': 'F',
 };
 
-const polish_values = [ 'EX',  'VG', 'G' ];
+const polish_values = [ 'EX',  'VG', 'G', 'F' ];
 
 const polish_map = {
 	EX: 'Excellent',
 	VG: 'Very Good',
-	G: 'Good'
+	G: 'Good',
+	F: 'Fair'
 };
 
 const reverse_polish_map = {
 	'excellent': 'EX',
 	'very good': 'VG',
-	'good': 'G'
+	'good': 'G',
+	'fair': 'F',
 };
 
 const fluorescence_values = ['N',  'F', 'M', 'S', 'VS']
