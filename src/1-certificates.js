@@ -57,7 +57,8 @@ const reverse_certificate_lab_map = {
 	hrd: 'HRD', 		
 	igi: 'IGI',		
 	iidgr: 'IIDGR', 	
-	pgs: 'PGS', 		
+	pgs: 'PGS',
+	bsc: 'BSC',		
 };
 
 module.exports = {

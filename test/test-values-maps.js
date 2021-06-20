@@ -14,6 +14,7 @@ describe('Test values-maps', () => {
 
     it('test values-maps', async () => {
         for (const key in values_maps) {
+            //console.log(key);
             const {values, map, reverse_map} = values_maps[key];
             expect(values.length === Object.keys(map).length).equals(true);
             const reverse_map_values = Array.from(new Set(Object.values(reverse_map)));
