@@ -23,6 +23,7 @@ const reverse_shape_map = {
 	round: 'RD',
 	br: 'RD',
 	cushion: 'CU',
+	cmb: 'CU',
 	princess: 'PR',
 	emerald: 'EM',
 	oval: 'OV',
