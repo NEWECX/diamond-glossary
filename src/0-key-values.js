@@ -29,6 +29,7 @@ const reverse_shape_map = {
 	oval: 'OV',
 	asscher: 'AS',
 	radiant: 'RA',
+	rad: 'RA',
 	marquise: 'MQ',
 	pear: 'PS',
 	heart: 'HS',
@@ -219,8 +220,11 @@ const reverse_fluorescence_map = {
 	none: 'N',
 	faint: 'F',
 	medium: 'M',
+	med: 'M',
 	strong: 'S',
+	st: 'S',
 	'very strong': 'VS',
+	vst: 'VS',
 };
 
 const symmetry_values = [ 'EX', 'VG', 'G', 'F' ];
@@ -331,6 +335,19 @@ const reverse_fancy_color_overtone_map = {
 	gray: 'GRAY',
 };
 
+const adjective_fancy_color_overtone_map = {
+	yellowish: 'YELLOW',
+	pinkish: 'PINK',
+	purplish: 'PURPLE', 
+	redish: 'RED',
+	bluish: 'BLUE',
+	greenish: 'GREEN',
+	orangish: 'ORANGE',
+	brownish: 'BROWN',
+	blackish: 'BLACK',
+	grayish: 'GRAY',
+};
+
 const colors_to_fancy_colors = {
 	FLY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FL'},
 	FY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FA'},
@@ -399,11 +416,17 @@ const fancy_color_intensity_map = {
 
 const reverse_fancy_color_intensity_map = {
 	'fancy light': 'FL',
-	'fancy': 'FA',
+	light: 'FL',
+	faint: 'FL',
+	fancy: 'FA',
 	'fancy intense': 'FI',
+	intense: 'FI',
 	'fancy vivid': 'FV',
+	vivid: 'FV',
 	'fancy deep': 'FP',
-	'fancy dark': 'FD'
+	deep: 'FP',
+	'fancy dark': 'FD',
+	dark: 'FD',
 };
 
 module.exports = {
@@ -444,4 +467,5 @@ module.exports = {
 	fancy_color_overtone_values,
 	fancy_color_overtone_map,
 	reverse_fancy_color_overtone_map,
+	adjective_fancy_color_overtone_map
 };
