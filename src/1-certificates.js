@@ -12,6 +12,7 @@ const certificate_lab_values = [
 	'IGI',
 	'IIDGR',
 	'PGS',
+	'BSC'
 ];
 
 const certificate_full_names = {
@@ -26,6 +27,7 @@ const certificate_full_names = {
 	IGI: 'International Gemological Institute',
 	IIDGR: 'International Institute of Diamond Grading & Research',
 	PGS: 'Professional GEM Science Laboratory',
+	BSC: 'Biological Safety Cabinet Testing & Certification',
 };
 
 const certificate_lab_map = {
@@ -39,7 +41,8 @@ const certificate_lab_map = {
 	HRD: 'HRD', 		
 	IGI: 'IGI',		
 	IIDGR: 'IIDGR', 	
-	PGS: 'PGS', 		
+	PGS: 'PGS',
+	BSC: 'BSC',		
 };
 
 const reverse_certificate_lab_map = {
