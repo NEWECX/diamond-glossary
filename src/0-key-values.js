@@ -1,6 +1,6 @@
 'use strict';
 
-const shape_values = ['RD', 'CU', 'PR', 'EM', 'OV', 'AS', 'RA', 'MQ', 'PS', 'HS', 'TR', 'SH', 'PE' ];
+const shape_values = ['RD', 'CU', 'PR', 'EM', 'OV', 'AS', 'RA', 'MQ', 'PS', 'HS', 'TR', 'SH', 'PE', 'RO' ];
 
 const shape_map = {
 	RD: 'round',
@@ -15,7 +15,8 @@ const shape_map = {
 	HS: 'heart',
 	TR: 'triangle',
 	SH: 'shield',
-	PE: 'pentagonal'
+	PE: 'pentagonal',
+	RO: 'rose',
 };
 
 const reverse_shape_map = {
@@ -31,7 +32,8 @@ const reverse_shape_map = {
 	heart: 'HS',
 	triangle: 'TR',
 	shield: 'SH',
-	pentagonal: 'PE'
+	pentagonal: 'PE',
+	rose: 'RO',
 };
 
 const color_values = [
