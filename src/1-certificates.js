@@ -12,7 +12,8 @@ const certificate_lab_values = [
 	'IGI',
 	'IIDGR',
 	'PGS',
-	'BSC'
+	'BSC',
+	'JSG',
 ];
 
 const certificate_full_names = {
@@ -28,6 +29,7 @@ const certificate_full_names = {
 	IIDGR: 'International Institute of Diamond Grading & Research',
 	PGS: 'Professional GEM Science Laboratory',
 	BSC: 'Biological Safety Cabinet Testing & Certification',
+	JSG: 'J.B. Grading System',
 };
 
 const certificate_lab_map = {
@@ -42,7 +44,8 @@ const certificate_lab_map = {
 	IGI: 'IGI',		
 	IIDGR: 'IIDGR', 	
 	PGS: 'PGS',
-	BSC: 'BSC',		
+	BSC: 'BSC',
+	JSG: 'JSG',		
 };
 
 const reverse_certificate_lab_map = {
@@ -58,7 +61,8 @@ const reverse_certificate_lab_map = {
 	igi: 'IGI',		
 	iidgr: 'IIDGR', 	
 	pgs: 'PGS',
-	bsc: 'BSC',		
+	bsc: 'BSC',
+	jsg: 'JSG',	
 };
 
 module.exports = {

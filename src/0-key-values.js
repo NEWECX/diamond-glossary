@@ -173,6 +173,7 @@ const reverse_cut_map = {
 	excellent: 'EX',
 	'very good': 'VG',
 	good: 'G',
+	gd: 'G',
 	fair: 'F',
 };
 
@@ -213,6 +214,7 @@ const reverse_polish_map = {
 	excellent: 'EX',
 	'very good': 'VG',
 	good: 'G',
+	gd: 'G',
 	fair: 'F'
 };
 
@@ -252,6 +254,7 @@ const reverse_symmetry_map = {
 	excellent: 'EX',
 	'very good': 'VG',
 	good: 'G',
+	gd: 'G',
 	fair: 'F'
 };
 
