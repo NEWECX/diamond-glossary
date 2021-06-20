@@ -281,6 +281,45 @@ const reverse_fancy_color_map = {
 	gray: 'GRAY',
 };
 
+const fancy_color_overtone_values = [
+	'YELLOW',
+	'PINK',
+	'PURPLE', 
+	'RED',
+	'BLUE',
+	'GREEN',
+	'ORANGE',
+	'BROWN',
+	'BLACK',
+	'GRAY'
+];
+
+const fancy_color_overtone_map = {
+	YELLOW: 'Yellow',
+	PINK: 'Pink',
+	PURPLE: 'Purple', 
+	RED: 'Red',
+	BLUE: 'Blue',
+	GREEN: 'Green',
+	ORANGE: 'Orange',
+	BROWN: 'Brown',
+	BLACK: 'Black',
+	GRAY: 'Gray',
+};
+
+const reverse_fancy_color_overtone_map = {
+	yellow: 'YELLOW',
+	pink: 'PINK',
+	purple: 'PURPLE', 
+	red: 'RED',
+	blue: 'BLUE',
+	green: 'GREEN',
+	orange: 'ORANGE',
+	brown: 'BROWN',
+	black: 'BLACK',
+	gray: 'GRAY',
+};
+
 const colors_to_fancy_colors = {
 	FLY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FL'},
 	FY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FA'},
@@ -391,4 +430,7 @@ module.exports = {
 	fancy_color_intensity_map,
 	reverse_fancy_color_intensity_map,
 	colors_to_fancy_colors,
+	fancy_color_overtone_values,
+	fancy_color_overtone_map,
+	reverse_fancy_color_overtone_map,
 };

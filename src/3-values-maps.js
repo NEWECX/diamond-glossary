@@ -63,6 +63,11 @@ const values_maps = {
         values: key_values.fancy_color_intensity_values,
         map: key_values.fancy_color_intensity_map,
         reverse_map: key_values.reverse_fancy_color_intensity_map,
+    },
+    fancy_color_overtone: {
+        values: key_values.fancy_color_overtone_values, 
+        map: key_values.fancy_color_overtone_map, 
+        reverse_map: key_values.reverse_fancy_color_overtone_map
     }
 };
 
