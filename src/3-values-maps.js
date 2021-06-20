@@ -29,6 +29,11 @@ const values_maps = {
         map: key_values.cut_map, 
         reverse_map: key_values.reverse_cut_map
     },
+    culet_size: {
+        values: key_values.culet_size_values,
+        map: key_values.culet_size_map,
+        reverse_map: key_values.reverse_culet_size_map,
+    },
 	polish: {
         values: key_values.polish_values, 
         map: key_values.polish_map, 

@@ -152,6 +152,28 @@ const reverse_cut_map = {
 	'fair': 'F',
 };
 
+const culet_size_values = [ 'N', 'VS', 'S', 'M', 'SL', 'LG', 'VG'];
+
+const culet_size_map = {
+	N: 'None',
+	VS: 'Very Small', 
+	S: 	'Small',
+	M: 'Medium',
+	SL: 'Slightly Large',
+	LG: 'Large',
+	VG: 'Very Large'
+};
+
+const reverse_culet_size_map = {
+	'none': 'N',
+	'very small': 'VS', 
+	'small': 'S',
+	'medium': 'M',
+	'slightly large': 'SL',
+    'large': 'LG',
+	'very large': 'VG', 
+};
+
 const polish_values = [ 'EX',  'VG', 'G', 'F' ];
 
 const polish_map = {
@@ -329,6 +351,9 @@ module.exports = {
 	cut_values,
 	cut_map,
 	reverse_cut_map,
+	culet_size_values,
+	culet_size_map,
+	reverse_culet_size_map,
 	polish_values,
 	polish_map,
 	reverse_polish_map,
