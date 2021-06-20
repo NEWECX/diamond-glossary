@@ -21,6 +21,7 @@ const shape_map = {
 
 const reverse_shape_map = {
 	round: 'RD',
+	br: 'RD',
 	cushion: 'CU',
 	princess: 'PR',
 	emerald: 'EM',
@@ -30,6 +31,7 @@ const reverse_shape_map = {
 	marquise: 'MQ',
 	pear: 'PS',
 	heart: 'HS',
+	ht: 'HS',
 	triangle: 'TR',
 	shield: 'SH',
 	pentagonal: 'PE',
@@ -154,10 +156,12 @@ const cut_map = {
 };
 
 const reverse_cut_map = {
-	'excellent': 'EX',
+	ideal: 'EX',
+	x: 'EX',
+	excellent: 'EX',
 	'very good': 'VG',
-	'good': 'G',
-	'fair': 'F',
+	good: 'G',
+	fair: 'F',
 };
 
 const culet_size_values = [ 'N', 'VS', 'S', 'M', 'SL', 'LG', 'VG'];
@@ -192,10 +196,12 @@ const polish_map = {
 };
 
 const reverse_polish_map = {
-	'excellent': 'EX',
+	ideal: 'EX',
+	x: 'EX',
+	excellent: 'EX',
 	'very good': 'VG',
-	'good': 'G',
-	'fair': 'F',
+	good: 'G',
+	fair: 'F'
 };
 
 const fluorescence_values = ['N',  'F', 'M', 'S', 'VS']
@@ -209,10 +215,10 @@ const fluorescence_map = {
 };
 
 const reverse_fluorescence_map = {
-	'none': 'N',
-	'faint': 'F',
-	'medium': 'M',
-	'strong': 'S',
+	none: 'N',
+	faint: 'F',
+	medium: 'M',
+	strong: 'S',
 	'very strong': 'VS',
 };
 
@@ -226,10 +232,12 @@ const symmetry_map = {
 };
 
 const reverse_symmetry_map = {
-	'excellent': 'EX',
+	ideal: 'EX',
+	x: 'EX',
+	excellent: 'EX',
 	'very good': 'VG',
-	'good': 'G',
-	'fair': 'F'
+	good: 'G',
+	fair: 'F'
 };
 
 const lab_grown_values = [0, 1];
