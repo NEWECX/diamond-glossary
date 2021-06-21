@@ -14,6 +14,7 @@ const certificate_full_names = {
 	PGS: 'Professional GEM Science Laboratory',
 	BSC: 'Biological Safety Cabinet Testing & Certification',
 	JGS: 'J.B. Grading System',
+	WGI: 'World Gemological Institute',
 };
 
 const certificate_lab_map = {
@@ -29,7 +30,8 @@ const certificate_lab_map = {
 	IIDGR: 'IIDGR', 	
 	PGS: 'PGS',
 	BSC: 'BSC',
-	JGS: 'JGS',		
+	JGS: 'JGS',
+	WGI: 'WGI',	
 };
 
 const certificate_lab_values = Object.keys(certificate_lab_map);
