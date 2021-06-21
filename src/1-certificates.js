@@ -1,21 +1,5 @@
 'use strict';
 
-const certificate_lab_values = [
-	'AGSL',
-	'DF',
-	'EGL',
-	'GCAL',
-	'GIA',
-	'GHI',
-	'GSI',
-	'HRD',
-	'IGI',
-	'IIDGR',
-	'PGS',
-	'BSC',
-	'JGS',
-];
-
 const certificate_full_names = {
 	AGSL: 'American GEM Society Laboratories',
 	DF: 'Diamond Foundry',
@@ -48,26 +32,13 @@ const certificate_lab_map = {
 	JGS: 'JGS',		
 };
 
-const reverse_certificate_lab_map = {
-	agsl: 'AGSL',  		
-	ags: 'AGSL',  		
-	df: 'DF',			
-	egl: 'EGL',			
-	gcal: 'GCAL', 		
-	ghi: 'GHI', 		
-	gia: 'GIA', 		
-	gsi: 'GSI', 		
-	hrd: 'HRD', 		
-	igi: 'IGI',		
-	iidgr: 'IIDGR', 	
-	pgs: 'PGS',
-	bsc: 'BSC',
-	jgs: 'JGS',	
-};
+const certificate_lab_values = Object.keys(certificate_lab_map);
+
+const reverse_certificate_lab_map = Object.entries(certificate_lab_map).reduce((a, [key, val]) => ({...a, [val.toLowerCase()]: key}), {});
 
 module.exports = {
-	certificate_lab_values,
 	certificate_full_names,
     certificate_lab_map,
+	certificate_lab_values,
     reverse_certificate_lab_map,
 };
