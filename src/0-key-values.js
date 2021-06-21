@@ -81,7 +81,7 @@ const culet_size_map = {
 	M: 'Medium',
 	SL: 'Slightly Large',
 	LG: 'Large',
-	VG: 'Very Large'
+	VL: 'Very Large'
 };
 
 const culet_size_values = Object.keys(culet_size_map);
