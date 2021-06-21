@@ -15,6 +15,7 @@ const certificate_full_names = {
 	BSC: 'Biological Safety Cabinet Testing & Certification',
 	JGS: 'J.B. Grading System',
 	WGI: 'World Gemological Institute',
+	EDR: 'Lloyds Family Jewellery Certificate',
 };
 
 const certificate_lab_map = {
@@ -31,7 +32,8 @@ const certificate_lab_map = {
 	PGS: 'PGS',
 	BSC: 'BSC',
 	JGS: 'JGS',
-	WGI: 'WGI',	
+	WGI: 'WGI',
+	EDR: 'EDR',	
 };
 
 const certificate_lab_values = Object.keys(certificate_lab_map);
