@@ -14,7 +14,6 @@ const shape_map = {
 	TR: 'Triangle',
 	SH: 'Shield',
 	PE: 'Pentagonal',
-	RO: 'Rose',
 	OC: 'Octagonal',
 	ST: 'Star',
 	HE: 'Hexagonal',
