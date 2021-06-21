@@ -18,7 +18,8 @@ const shape_map = {
 	OC: 'Octagonal',
 	ST: 'Star',
 	HE: 'Hexagonal',
-	HM: 'Half Moon'
+	HM: 'Half Moon',
+	TZ: 'Trapezoid'
 };
 
 const shape_values = Object.keys(shape_map);
