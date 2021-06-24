@@ -1,15 +1,15 @@
 'use strict';
 
 const certificate_full_names = {
-	AGSL: 'American GEM Society Laboratories',
-	DF: 'Diamond Foundry',
-	EGL: 'European Gemological Laboratories',
-	GCAL: 'GEM Certification & Assurance LAB',
 	GIA: 'The Gemological Institute of America',
-	GHI: 'Gemology Headquarters International Laboratory',
-	GSI: 'Gemological Science International',
+	AGSL: 'American GEM Society Laboratories',
 	HRD: 'Diamond High Council',
 	IGI: 'International Gemological Institute',
+	GCAL: 'GEM Certification & Assurance LAB',
+	DF: 'Diamond Foundry',
+	EGL: 'European Gemological Laboratories',
+	GHI: 'Gemology Headquarters International Laboratory',
+	GSI: 'Gemological Science International',
 	IIDGR: 'International Institute of Diamond Grading & Research',
 	PGS: 'Professional GEM Science Laboratory',
 	BSC: 'Biological Safety Cabinet Testing & Certification',
@@ -19,15 +19,15 @@ const certificate_full_names = {
 };
 
 const certificate_lab_map = {
-	AGSL: 'AGSL',  		
-	DF: 'DF',			
-	EGL: 'EGL',			
-	GCAL: 'GCAL', 		
-	GHI: 'GHI', 		
 	GIA: 'GIA', 		
-	GSI: 'GSI', 		
+	AGSL: 'AGSL',  		
 	HRD: 'HRD', 		
 	IGI: 'IGI',		
+	GCAL: 'GCAL', 		
+	DF: 'DF',			
+	EGL: 'EGL',			
+	GHI: 'GHI', 		
+	GSI: 'GSI', 		
 	IIDGR: 'IIDGR', 	
 	PGS: 'PGS',
 	BSC: 'BSC',
