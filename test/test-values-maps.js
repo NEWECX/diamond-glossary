@@ -1,7 +1,8 @@
 'use strict';
 
 const chai = require('chai');
-const values_maps = require('../src/3-values-maps')
+const {certificate_full_names, certificate_lab_map} = require('../src/1-certificates')
+const values_maps = require('../src/2-values-maps')
 
 const expect = chai.expect;
 
@@ -34,4 +35,9 @@ describe('Test values-maps', () => {
         }
     });
 
+    it('test certificates', async () => {
+        const keys1 = Object.keys(certificate_full_names);
+        const keys2 = Object.keys(certificate_lab_map)
+        expect(keys1).to.be.deep.equal(keys2);
+    });
 });
