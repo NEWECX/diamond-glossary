@@ -15,9 +15,9 @@ const values_maps = {
         reverse_map: key_values.reverse_shape_map
     },
 	color: {
-        values: key_values.color_values, 
-        map: key_values.color_map, 
-        reverse_map: key_values.reverse_color_map
+        values: [...key_values.color_values, ...key_values.fancy_color_color_values],
+        map: {...key_values.color_map, ...key_values.fancy_color_color_map},
+        reverse_map: {...key_values.reverse_color_map, ...key_values.reverse_fancy_color_color_map}
     },
 	clarity: {
         values: key_values.clarity_values, 

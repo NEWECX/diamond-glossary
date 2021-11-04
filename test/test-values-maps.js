@@ -33,6 +33,7 @@ describe('Test values-maps', () => {
                 expect(values.indexOf(r_value)).not.equals(-1);
             }
         }
+        //console.log(values_maps.color);
     });
 
     it('test certificates', async () => {
