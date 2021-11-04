@@ -177,6 +177,63 @@ const fancy_color_intensity_values =Object.keys(fancy_color_intensity_map);
 
 const reverse_fancy_color_intensity_map = Object.entries(fancy_color_intensity_map).reduce((a, [key, val]) => ({...a, [val.toLowerCase()]: key}), {});
 
+// ignore overtone colors
+//
+const colors_to_fancy_colors = {
+
+	FLY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FL'},
+	FY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FA'},
+	FIY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FI'},
+	FVY: {fancy_color: 'YELLOW', fancy_color_intensity: 'FV'},
+
+	FLO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FL'},
+	FO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FA'},
+	FIO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FI'},
+	FVO: {fancy_color: 'ORANGE', fancy_color_intensity: 'FV'},
+
+	FLR: {fancy_color: 'RED', fancy_color_intensity: 'FL'},
+	FR: {fancy_color: 'RED', fancy_color_intensity: 'FA'},
+	FIR: {fancy_color: 'RED', fancy_color_intensity: 'FI'},
+	FVR: {fancy_color: 'RED', fancy_color_intensity: 'FV'},
+
+	FLBLU: {fancy_color: 'BLUE', fancy_color_intensity: 'FL'},
+	FBLU: {fancy_color: 'BLUE', fancy_color_intensity: 'FA'},
+	FIBLU: {fancy_color: 'BLUE', fancy_color_intensity: 'FI'},
+	FVBLU: {fancy_color: 'BLUE', fancy_color_intensity: 'FV'},
+
+	FLBLA: {fancy_color: 'BLACK', fancy_color_intensity: 'FL'},
+	FBLA: {fancy_color: 'BLACK', fancy_color_intensity: 'FA'},
+	FIBLA: {fancy_color: 'BLACK', fancy_color_intensity: 'FI'},
+	FVBLA: {fancy_color: 'BLACK', fancy_color_intensity: 'FV'},
+
+	FLBRO: {fancy_color: 'BROWN', fancy_color_intensity: 'FL'},
+	FBRO: {fancy_color: 'BROWN', fancy_color_intensity: 'FA'},
+	FIBRO: {fancy_color: 'BROWN', fancy_color_intensity: 'FI'},
+	FVBRO: {fancy_color: 'BROWN', fancy_color_intensity: 'FV'},
+
+	FLPI: {fancy_color: 'PINK', fancy_color_intensity: 'FL'},
+	FPI: {fancy_color: 'PINK', fancy_color_intensity: 'FA'},
+	FIPI: {fancy_color: 'PINK', fancy_color_intensity: 'FI'},
+	FVPI: {fancy_color: 'PINK', fancy_color_intensity: 'FV'},
+
+	FLPU: {fancy_color: 'PURPLE', fancy_color_intensity: 'FL'},
+	FPU: {fancy_color: 'PURPLE', fancy_color_intensity: 'FA'},
+	FIPU: {fancy_color: 'PURPLE', fancy_color_intensity: 'FI'},
+	FVPU: {fancy_color: 'PURPLE', fancy_color_intensity: 'FV'},
+
+	FLGRE: {fancy_color: 'GREEN', fancy_color_intensity: 'FL'},
+	FGRE: {fancy_color: 'GREEN', fancy_color_intensity: 'FA'},
+	FIGRE: {fancy_color: 'GREEN', fancy_color_intensity: 'FI'},
+	FVGRE: {fancy_color: 'GREEN', fancy_color_intensity: 'FV'},
+	
+	FLGRA: {fancy_color: 'GRAY', fancy_color_intensity: 'FL'},
+	FGRA: {fancy_color: 'GRAY', fancy_color_intensity: 'FA'},
+	FIGRA: {fancy_color: 'GRAY', fancy_color_intensity: 'FI'},
+	FVGRA: {fancy_color: 'GRAY', fancy_color_intensity: 'FV'},
+};
+
+const fancy_color_color_values = Object.keys(colors_to_fancy_colors);
+
 module.exports = {
 	shape_map,
 	shape_values,
@@ -214,4 +271,6 @@ module.exports = {
 	fancy_color_overtone_map,
 	fancy_color_overtone_values,
 	reverse_fancy_color_overtone_map,
+	colors_to_fancy_colors,
+	fancy_color_color_values,
 };
