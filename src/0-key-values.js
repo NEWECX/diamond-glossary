@@ -154,6 +154,19 @@ const fancy_color_map = {
 	GRAY: 'Gray',
 };
 
+const fancy_color_short_map = {
+	Y: 'YELLOW',
+	PI: 'PINK',
+	PU: 'PURPLE', 
+	R: 'RED',
+	BLU: 'BLUE',
+	GRE: 'GREEN',
+	O: 'ORANGE',
+	BRO: 'BROWN',
+	BLA: 'BLACK',
+	GRA: 'GRAY',
+};
+
 const fancy_color_values = Object.keys(fancy_color_map);
 
 const reverse_fancy_color_map = Object.entries(fancy_color_map).reduce((a, [key, val]) => ({...a, [val.toLowerCase()]: key}), {});
@@ -301,5 +314,6 @@ module.exports = {
 	colors_to_fancy_colors,
 	fancy_color_color_values,
 	fancy_color_color_map,
+	fancy_color_short_map,
 	reverse_fancy_color_color_map
 };
