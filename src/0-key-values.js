@@ -159,6 +159,7 @@ const fancy_color_map = {
 	BROWN: 'Brown',
 	BLACK: 'Black',
 	GRAY: 'Gray',
+	WHITE: 'White'
 };
 
 const fancy_color_short_map = {
@@ -172,6 +173,7 @@ const fancy_color_short_map = {
 	BRO: 'BROWN',
 	BLA: 'BLACK',
 	GRA: 'GRAY',
+	W: 'WHITE'
 };
 
 const fancy_color_values = Object.keys(fancy_color_map);
@@ -270,6 +272,14 @@ const colors_to_fancy_colors = {
 	FVGRA: {fancy_color: 'GRAY', fancy_color_intensity: 'FV'},
 	FPGRA: {fancy_color: 'GRAY', fancy_color_intensity: 'FP'},
 	FDGRA: {fancy_color: 'GRAY', fancy_color_intensity: 'FD'},
+
+	FLW: {fancy_color: 'WHITE', fancy_color_intensity: 'FL'},
+	FW: {fancy_color: 'WHITE', fancy_color_intensity: 'FA'},
+	FIW: {fancy_color: 'WHITE', fancy_color_intensity: 'FI'},
+	FVW: {fancy_color: 'WHITE', fancy_color_intensity: 'FV'},
+	FPW: {fancy_color: 'WHITE', fancy_color_intensity: 'FP'},
+	FDW: {fancy_color: 'WHITE', fancy_color_intensity: 'FD'},
+
 };
 
 const fancy_color_color_values = Object.keys(colors_to_fancy_colors);
