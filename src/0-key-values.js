@@ -1,6 +1,7 @@
 'use strict';
 
 const shape_map = {
+	
 	RD: 'Round',
 	CU: 'Cushion',
 	PR: 'Princess',
@@ -11,14 +12,20 @@ const shape_map = {
 	MQ: 'Marquise',
 	PS: 'Pear',
 	HS: 'Heart',
+
 	TR: 'Triangle',
 	SH: 'Shield',
-	PE: 'Pentagonal',
-	OC: 'Octagonal',
+	PE: 'Pentagon',
+	OC: 'Octagon',
 	ST: 'Star',
-	HE: 'Hexagonal',
+	HE: 'Hexagon',
 	HM: 'Half Moon',
-	TZ: 'Trapezoid'
+	TZ: 'Trapezoid',
+	KI: 'Kite',
+	BR: 'Briolette',
+	DE: 'Decagon',
+	LO: 'Lozenge',
+	OT: 'Other'
 };
 
 const shape_values = Object.keys(shape_map);
