@@ -16,6 +16,7 @@ const certificate_full_names = {
 	JGS: 'J.B. Grading System',
 	WGI: 'World Gemological Institute',
 	EDR: 'Lloyds Family Jewellery Certificate',
+	LGC: 'The UK’s designated National Measurement Institute for chemical and bioanalytical measurements'
 };
 
 const certificate_lab_map = {
@@ -33,7 +34,8 @@ const certificate_lab_map = {
 	BSC: 'BSC',
 	JGS: 'JGS',
 	WGI: 'WGI',
-	EDR: 'EDR',	
+	EDR: 'EDR',
+	LGC: 'LGC',
 };
 
 const certificate_lab_values = Object.keys(certificate_lab_map);
