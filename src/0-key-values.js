@@ -22,7 +22,8 @@ const shape_map = {
 	HM: 'Half Moon',
 	TZ: 'Trapezoid',
 	KI: 'Kite',
-	BR: 'Briolette',
+	//BR: 'Briolette', removed due to use BR for RD is common @ 02/19/2022
+	BT: 'Briolette',
 	DE: 'Decagon',
 	LO: 'Lozenge',
 	OT: 'Other'
