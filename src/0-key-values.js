@@ -107,23 +107,29 @@ const fluorescence_values = Object.keys(fluorescence_map);
 
 const reverse_fluorescence_map = Object.entries(fluorescence_map).reduce((a, [key, val]) => ({...a, [val.toLowerCase()]: key}), {});
 
+const cut_map = {
+	ID: 'Ideal',
+	VG: 'Very Good',
+	G: 'Good',
+	F: 'Fair',
+	P: 'Poor'
+};
+
+const cut_values = Object.keys(cut_map);
+
+const reverse_cut_map = Object.entries(cut_map).reduce((a, [key, val]) => ({...a, [val.toLowerCase()]: key}), {});
 
 const std_grade_map = {
 	EX: 'Excellent',
 	VG: 'Very Good',
 	G: 'Good',
-	F: 'Fair'
+	F: 'Fair',
+	P: 'Poor'
 };
 
 const std_grade_values = Object.keys(std_grade_map);
 
 const reverse_std_grade_map = Object.entries(std_grade_map).reduce((a, [key, val]) => ({...a, [val.toLowerCase()]: key}), {});
-
-const cut_map = std_grade_map;
-
-const cut_values = std_grade_values;
-
-const reverse_cut_map = reverse_std_grade_map;
 
 const polish_map = std_grade_map;
 
